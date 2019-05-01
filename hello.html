@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+ 
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+document.getElementById('demo').style.fontsize = "35px";
+document.getElementById("demo").style.fontSize = "35px";
+docuemnt.getElementById('demo').style.display = 'none';
+docuemnt.getElementById('demo').style.display = block;
+document.getElementById('demo').innerHTML='my first JavaScript';
+<div style="background-color:darkcyan"> </div>
+
+<head>
+    <script>
+    function myfunction(){
+        document.getElementById('demo').innerHTML='paragraph changed.'; 
+    }
+    </script>
+<h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+</head>
+
+//Hiding HTML elements can be done by changing the display style;
+
+</body>
+</html> 
