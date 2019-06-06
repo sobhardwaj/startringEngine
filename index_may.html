@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/logo1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+    
+    <title>Document</title>
+    <style>
+     h1{
+         padding: 3% 0 0 0;
+         font-size: 3em;
+         text-align: center;
+         font-weight: bold;
+         text-transform: uppercase;
+     }
+     h2{
+         text-align: centre;
+         font-weight: bold;
+     }
+     h4{
+         font-weight: bold;
+     }
+     a{
+         color:#FF00000;
+     }
+     a:hover{
+         color:#6D8383;
+         text-decoration: none;
+     }
+     a.footer-link{
+         color:#fff;
+     }
+     a.footer-link:hover{
+         color: #6D8383;
+     }
+     .blockquote-footer{
+         background-color: #d5d5d5;
+         padding: 0;
+     }
+     footer{
+         background-color: #0275d8;
+         color:#fff;
+         width: 100%;
+         padding;3%
+
+     }
+     #box-1{
+         display:block;
+         background-color:#ff80000;
+     }
+     #box-2{
+         width:100%;
+         background-color:#1893FD;
+         padding:2%
+        color:#fff;
+     }
+
+     .navbar{
+         margin-right: 0;
+         border-radius: 0;
+         background-color: #0275d8;
+         color: white;
+         padding:2px 0;
+         font-size: 1.3em;
+         border:0;
+     }
+     .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .avctive a:focus, .navbar-inverse
+     .navbar-nav .active a:hover{
+         color: white;
+         background-color: #0275d8;
+     }
+     .navbar-inverse .navbar-nav li a{
+        color:#d5d5d5;
+     }
+     .navbar-brand{
+         float: left;
+         padding: 0 15px 5px 35px;
+     }
+     .carousel-caption{
+         top: 76%;
+         transform: translateY(-50%);
+         text-transform: uppercase;        
+     }
+     .container-text{
+         padding:3%;
+
+     }
+     .vertical-line-1{
+         padding: 20px 0;
+         width: 15px;
+         height: 225px;
+         opacity: 0.6;
+     }
+     .col-sm-2{
+         text-align: center;
+
+     }
+     .col-sm-2{
+         text-align: center;
+     }
+     .btn{
+         font-size: 18px;
+         color: white;
+         padding: 12px 22px;
+         background-color: #0275d8;
+         border: 2px solid white;
+     }
+     .blockquote-reverse{
+         padding: 3%;
+         background-color: #d5d5d5;
+     }
+     #info-right{
+         text-align: right;
+         padding-right:2%; 
+     }
+     .fa{
+         padding-right:20px;
+         font-size: 30px;
+         color: white;    
+     }
+     
+     .fa:hover{
+         color: #d5d5d5;
+         text-decoration: none;
+     }
+     .bg-info-link{
+         color:black;
+
+     }
+     .bg-info-link:hover{
+         color: #6D8383;
+         text-decoration: none;
+     }
+     @media( max-width:800px){
+         .vertical-line-1{
+             display: none;
+         }
+     }
+     @media(max-width:900px){
+         .vertical-line-1{
+             height: 400px;
+         }
+     }
+    </style>
+</head>
+
+<body>
+    <!----navigation bar Begins-->
+    <nav class="navbar navbar-inverse">
+     <div class="container-fliud">
+
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+        </button>
+            <a href="index.html" class="navbar-brand"><img src="images/logo1.jpg" height="100%" alt="Happy New Year"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="index.html">Service</a></li>
+                <li><a href="index.html">Microsoft</a></li>
+                <li><a href="index.html">Apple</a></li>
+            </ul>
+        </div>
+
+    
+    </nav>
+    <!----navigation bar Ends-->
+
+    <!----image slider begins-->
+    <div class="carousel slide" id="carousel-1" data-ride="carousel">
+        <!----image slider image begins-->
+        <div class="carousel-inner" role="listenbox">
+                <div class="item-active">
+                  <img src="images/akhardham.jpg" alt="akshardham" class="d-block img-fluid" title="Akshardham">
+                </div>
+
+                <div class="item">
+                    <img src="images/pic.jpg" class="d-block img-fluid" title="India Gate">
+               </div>
+
+                <div class="item">
+                     <img src="images/pic1.jpg" class="d-block img-fluid" title="India Gate, Delhi">
+                </div>
+
+                <div class="item">
+                     <img src="images/pic2.jpg" class="d-block img-fluid" title="Taj Mahal, Agra">
+                </div>
+
+                <div class="item">
+                     <img src="images/pic3.jpg" class="d-block img-fluid" title="Rajasthan">
+                </div>
+
+                <div class="item">
+                      <img src="images/pic4.jpg" class="d-block img-fluid" title="Night India Gate">
+                </div>
+
+                <div class="item">
+                    <img src="images/pic5.jpg" class="d-block img-fluid" title="India Gate">
+                  </div>
+            </div>
+        </div>
+        <!----image slider image ends-->
+        <!----image slider control begins-->
+        <a href="#carousel-1" class="left-carousel-control" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidde="true"></span>
+            <span class="sr-only">previous</span>
+        </a>
+
+        <a href="#carousel-1" class="right-carousel-control" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidde="true"></span>
+            <span class="sr-only">next</span>
+        </a>
+        <!----Image slider control ends-->
+
+        <!----Carousel Indicator Begins-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-1"  data-slide-to="0"  class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+            <li data-target="#carousel-1" data-slide-to="3"></li>
+            <li data-target="#carousel-1" data-slide-to="4"></li>
+            <li data-target="#carousel-1" data-slide-to="5"></li>
+        </ol>
+    </div>
+     <!----image slider ends-->
+    <div class="container-text">
+        <div class="page-holder">
+            <h1>Name of Website</h1>
+        </div>
+        <blockquote class="blockquote-reverse">Man needs difficulties in life because they
+            are neccessay to enjoy the success.
+            <footer class="blockquote-footer">A.P.J. Abdul Kalam Azad
+                <cite title="ou Are Born To Blossom Take My Journey Beyond..."></cite>
+         </footer>
+        </blockquote>
+    </div>
+   <div class="container-text" id="box-1">
+    <div class="row">
+        <div class="col-sm-1"></div>
+
+        <div class="col-sm-2"><h3>Service 1</h3>
+        <p><small>Talk About New Prodcuts</small></p><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugiat sit voluptatem,
+        inventore eligendi nemo adipisci reprehenderit voluptatibus molestias necessitatibus,
+        a sequi dolores, quia error. Tempora molestiae maxime quas nemo.</div>
+        
+        <div class="col-sm-2"><img src="images/vertical-line.png" alt="verical-lines"></div>
+
+        <div class="col-sm-2"><h3>Service 1</h3>
+        <p><small>Talk About New Prodcuts</small></p><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugiat sit voluptatem,
+        inventore eligendi nemo adipisci reprehenderit voluptatibus molestias necessitatibus,
+        a sequi dolores, quia error. Tempora molestiae maxime quas nemo.</div>
+
+        <div class="col-sm-2"><img src="images/vertical-line.png" alt="verical-lines"></div>
+
+        <div class="col-sm-2"><h3>Service 1</h3>
+        <p><small>Talk About New Prodcuts</small></p><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugiat sit voluptatem,
+        inventore eligendi nemo adipisci reprehenderit voluptatibus molestias necessitatibus,
+        a sequi dolores, quia error. Tempora molestiae maxime quas nemo.</div>
+        
+          
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+
+        <div class="bg-info" id="info-right">
+            <a href="" class="bg-info-link">See all the Services</a>
+        </div>
+            <div class="container-text">
+                <div class="row">
+                 <div class="col-sm-6">
+                    <h2>Prodcut-1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero odit saepe 
+                        et nemo, autem laudantium quidem nobis quam accusamus consequuntur debitis.
+                         Odio ea corporis quibusdam, labore quis consequatur expedita.</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati libero odit saepe
+                            et nemo, autem laudantium quidem nobis quam accusamus consequuntur debitis.
+                            Odio ea corporis quibusdam, labore quis consequatur expedita.</p>
+                            <a href="#">Read more.....</a>
+                 </div>
+                 <div class="col-sm-6">
+                     <img src="images/bootstrap.png" alt="Bootstrap" title="Bootstrap" class="img-responsive">
+                 </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                     <img src="images/bootstrap4.png" alt="Saas" title="bootstrap4" class="img-responsive"> 
+                     </div>
+                
+                 <div class="col-sm-6">
+                     <h2>Prodcuts</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto dolore 
+                         nobis quas temporibus, animi quibusdam maiores, corrupti beatae illum dolorem eligendi quis?
+                          Adipisci sapiente iusto, vitae maiores amet incidunt!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto dolore
+                            nobis quas temporibus, animi quibusdam maiores, corrupti beatae illum dolorem eligendi quis?
+                            Adipisci sapiente iusto, vitae maiores amet incidunt!</p>
+                            <a href="#">Read more.....</a>
+                 </div>
+                </div>
+
+                <div class="row">
+                  <div class="bg-info" id="info-right"><a href="#" class="bg">See all the Products</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <small>Testimonials</small>
+                        <h3>heading</h3>
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                             ducimus nobis voluptas officiis velit sequi optio molestiae vitae, 
+                            adipisci perspiciatis sint accusantium molestias itaque vel provident id, 
+                            animi deserunt at. <footer class="blockquote-footer">ABC</footer>
+                        </blockquote>
+                    </div>
+
+                     
+                    <div class="col-sm-4">
+                        <small>Testimonials</small>
+                        <h3>heading</h3>
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                            ducimus nobis voluptas officiis velit sequi optio molestiae vitae,
+                            adipisci perspiciatis sint accusantium molestias itaque vel provident id,
+                            animi deserunt at. <footer class="blockquote-footer">Bhardwaj</footer>
+                        </blockquote>
+                    </div>
+
+
+                <div class="col-sm-4">
+                    <small>Testimonials</small>
+                    <h3>heading</h3>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        ducimus nobis voluptas officiis velit sequi optio molestiae vitae,
+                        adipisci perspiciatis sint accusantium molestias itaque vel provident id,
+                        animi deserunt at. <footer class="blockquote-footer">Sharma Ji</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bg-info" id="info-right"><a href="#" class="bg-info-link">
+                    see all the Testimonials</a>
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h4>heading-1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora sunt
+                        quam eveniet ad alias delectus dolorem fugit magni, pariatur, 
+                    reiciendis ab quidem dignissimos tempore numquam, ratione facilis 
+                    autem veritatis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora sunt
+                        quam eveniet ad alias delectus dolorem fugit magni, pariatur,
+                        reiciendis ab quidem dignissimos tempore numquam, ratione facilis
+                        autem veritatis!</p>
+                        </div>
+                    <div class="col-sm-6">
+                        <h4>heading-2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora sunt
+                            quam eveniet ad alias delectus dolorem fugit magni, pariatur,
+                            reiciendis ab quidem dignissimos tempore numquam, ratione facilis
+                            autem veritatis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora sunt
+                            quam eveniet ad alias delectus dolorem fugit magni, pariatur,
+                            reiciendis ab quidem dignissimos tempore numquam, ratione facilis
+                            autem veritatis!</p>
+                       </div>
+
+
+                </div>
+            </div>
+
+            <div class="container-fluid text-center" id="box-2">
+                <div class="row">
+                    <div class="co-sm-2">
+                        <h4>Share</h4>
+                        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+                        <a href="https://wwww.instagram.com" target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://www.pinterest.com" target="_blank" class="fa fa-pinterest"></a>
+                        <a href="https://wwww.youtube.com" target="_blank" class="fa fa-youtube"></a>
+                    
+                    </div>
+                    <div class="col-sm-6">
+                        <small class="footer-small">Design and Developed by</small>
+                        <h4>Siddharath Bhardwaj</h4>
+
+                        <small class="footer-small">About</small>
+                        <p>Siddharath Bhardwaj</p>
+
+                        <small class="footer-small">Address</small>
+                        <p>Siddharath Bhardwaj N-40/m Street 2, Sadatpur extn pusta 
+                            Karawal Nagar <Delhi-94>Delhi-94</Delhi-94>
+                        </p>
+
+                        <small class="footer-small">Heading</small>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro perspiciatis animi
+                             inventore alias, tempora est tempore error eveniet. 
+                            Totam libero minus, cupiditate nostrum omnis natus amet! Saepe optio enim facilis. 
+                            Bhardwaj</p>
+
+                    </div>
+                    <div class="col-sm-2">
+                        <h4>Contact</h4>
+                        <p>Email: <a href="Deveoplersiddharath@gmail.com" target="_top" class="footer-link">Developersiddharath@gmail.com</a></p>
+                        <p>Twitter: <a href="https:www.twitter.com/sid_bhardwaj" target="_blank" class="footer-link">@sid_bhardwaj</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-2">
+                    <h4>Socailise</h4>
+                    <a href="www.instagram.com/Sid_bhardwaj" target="_blank" class="footer-link">instagram</a> <br>
+                    <a href="www.youtube.com" target="_blank" class="footer-link">Youtube</a>
+                </div>
+                </div>
+            </div>
+            <footer class="container-fluid text-center">
+                <div class="row">&copy;Sid_bhardwaj</div>
+            </footer>
+</body>
+</html>
